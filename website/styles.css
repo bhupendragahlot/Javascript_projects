@@ -78,6 +78,10 @@ body {
 }
 
 #herofooter {
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,4 +105,28 @@ gap: 5px;
     height: 25px;
     border-radius: 50%;
     background-color: #888;
+}
+
+#second_section{
+    padding-right: 10vw;
+    padding-top:200px;
+    background-color:black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem{
+    width: 50%;
+    padding: 4vw 1vw;
+    border-top:1px solid #888 ;
+}
+.elem h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+.elem_last{
+    border-bottom:1px solid #888;
 }

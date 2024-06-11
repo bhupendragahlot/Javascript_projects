@@ -84,9 +84,13 @@ body {
 }
 
 #herofooter a {
-    color: white;
+    color:white;
     text-transform: uppercase;
     text-decoration: none;
+}
+#herofooter #iconset{
+display: flex;
+gap: 5px;
 }
 
 #herofooter .circle {

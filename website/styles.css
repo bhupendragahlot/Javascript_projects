@@ -117,16 +117,17 @@ gap: 5px;
 }
 
 .elem{
-    width: 50%;
-    padding: 4vw 1vw;
+    width: 100%;
+    padding: 3.5vw 1vw;
     border-top:1px solid #888 ;
 }
 .elem h1{
-    font-size: 8vw;
+    font-size: 7.5vw;
     text-transform: uppercase;
     opacity: .6;
 }
 
 .elem_last{
+    
     border-bottom:1px solid #888;
 }

@@ -74,10 +74,12 @@ body {
 }
 
 #herofooter{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 #herofooter a{
     color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }

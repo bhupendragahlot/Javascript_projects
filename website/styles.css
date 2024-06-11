@@ -34,7 +34,8 @@ body {
 #nav a {
     color: white;
 }
-#heading{
+
+#heading {
     margin-top: 90px;
 }
 
@@ -47,39 +48,53 @@ body {
     text-transform: uppercase;
     font-weight: 900;
 }
-#heading #second_h1{
+
+#heading #second_h1 {
     margin-left: 230px;
 }
 
-.blocktext{
+.blocktext {
     width: fit-content;
 }
 
-.blocktext h5{
+.blocktext h5 {
     opacity: .7;
     text-transform: uppercase;
     font-size: 15px;
     text-align: right;
 }
-#heading2{
+
+#heading2 {
     margin-top: 100px;
     padding-right: 50px;
 
 }
-#heading2 h5{
+
+#heading2 h5 {
     text-align: right;
     margin-top: .5vw;
     font-size: 1vw;
     text-transform: uppercase;
 }
 
-#herofooter{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+#herofooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-#herofooter a{
+
+#herofooter a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
 }

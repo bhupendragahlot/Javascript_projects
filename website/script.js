@@ -103,12 +103,6 @@ document.querySelectorAll(".elem").forEach(function (elem) {
 
 
 
-
-
-
-
-
-
 const image = document.querySelector('#about img');
   const link = document.querySelector('#about a');
 

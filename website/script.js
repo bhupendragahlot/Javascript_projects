@@ -99,3 +99,39 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 });
+
+
+
+
+
+
+
+
+
+
+const image = document.querySelector('#about img');
+  const link = document.querySelector('#about a');
+
+  // Hover effect for the image
+  image.addEventListener('mouseover', () => {
+    image.style.transform = 'scale(1.1)';
+    image.style.transition = 'transform 0.3s ease';
+  });
+
+  image.addEventListener('mouseout', () => {
+    image.style.transform = 'scale(1)';
+    image.style.transition = 'transform 0.3s ease';
+  });
+
+  // Hover effect for the link
+  link.addEventListener('mouseover', () => {
+    link.style.color = 'black';
+  link.style.backgroundColor = 'white'; 
+  link.style.transition = 'color 0.3s ease, background-color 0.3s ease'; 
+  });
+
+  link.addEventListener('mouseout', () => {
+    link.style.color = ''; 
+  link.style.backgroundColor = ''; 
+  link.style.transition = 'color 0.3s ease, background-color 0.3s ease';
+  });
